@@ -4,8 +4,8 @@ import java.util.concurrent.TimeUnit;
 
 public class ReceivingFromQ {
 
-    static String connectionString="Endpoint=sb://testname-s.servicebus.windows.net/;SharedAccessKeyName=policy001;SharedAccessKey=9O52sP0y9sMT9HQpeiKI9CLozaKo8bdJA+ASbLM+JsY=;EntityPath=fqueue";
-    static String queueName="fqueue";
+    static String connectionString="";
+    static String queueName="";
 
     public static void main(String[] args) throws InterruptedException {
         receiveMessages();

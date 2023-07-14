@@ -6,8 +6,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public class sendQinBatch {
-    static String connectionString="Endpoint=sb://testname-s.servicebus.windows.net/;SharedAccessKeyName=policy001;SharedAccessKey=9O52sP0y9sMT9HQpeiKI9CLozaKo8bdJA+ASbLM+JsY=;EntityPath=fqueue";
-    static String queueName="fqueue";
+    static String connectionString="";
+    static String queueName="";
 
     //multiple messages at the same time
     public static void main(String[] args) {
